@@ -1,0 +1,53 @@
+body,html{
+    margin:0;
+    padding:0;
+    height: 100%;
+    
+}
+.proposal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   background-color: pink;
+   
+}
+
+.proposal-text{
+    font-size: 50px;
+    overflow: visible;
+    text-overflow: ellipsis;
+
+}
+
+.button-container{
+    padding-top: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#yesButton{
+    background-color:green;
+    color:white;
+    border:none;
+}
+
+#noButton{
+    background-color: darkred;
+    color:white;
+    border:none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: larger;
+}
